@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body class="container">
+    <header >
+        <img class="img-thumbnail" src="Coding keeda.png" alt="CodingKeeda" title="Coding Keeda">
+            <hr>
+        <nav class="nav-des nav-link">
+            <a href="http://Codingkeeda.com">Home</a>
+            <a href="http://Codingkeeda.com/about">&darr; About Us </a>
+        </nav>
+        <hr>
+    </header>
+    <section>
+        <div >
+            <p class="set-p">Coding Keeda Log In Page</p>
+        <hr>
+        <p style="font-family:Raleway">* All Fields Are Mindatory</p>
+    </div>
+        <div>
+        <form id="FormLogin" action="" method="POST" class="form-group">
+            <label for="UserName">Email  :</label>
+            <input type="text" name="UserName" id="UserName" class="form-control" placeholder="Email" >
+            <br>
+            <label for="Password">Password :</label>  
+            <input type="password" id="Password" name="Password" placeholder="Password" class="form-control"> 
+        <br>
+        <button class="btn btn-primary" type="submit" id="login">Log In </button>
+        <button type="reset" class="btn btn-primary" >Reset</button>
+    
+    </form>
+</div>
+
+<div id="logindata" >
+
+</div>
+        <div>
+            <hr>
+        <p class="DesText">
+            <b>Create New Or Forgot Password</b>
+        </p>
+        <button class="btn btn-primary" id="signupbutton">Sign Up </button>
+        <button class="btn btn-primary" id="forgot">Forgot Password </button>
+        </div>
+        
+        <div id="singupform">
+                <hr>
+                <form id="signup" action="" method="POST" class="form-group">
+                    <label for="Name"> Name</label>
+                    <input class="form-control" type="text" id="Name" required placeholder="First Name">
+                    <label for="mobile">Mobile</label>
+                    <input class="form-control" type="Mobile" id="mobile" required placeholder="Mobile Number">
+                    <label for="Email">Email</label>
+                    <input class="form-control" type="email" id="Email" required placeholder="Email">
+                    <label for="SPassword">Password</label>
+                    <input class="form-control" type="password" id="SPassword" required placeholder="Password" minlength="1">
+                    <label for="class">Select Class</label>
+                    <select class="form-control" name="Class" id="class">
+                        <option value="B.Sc">B.Sc</option>
+                        <option value="B.Com">B.Com</option>
+                        <option value="B.A">B.A</option>
+                        <option value="B.C.A">B.C.A</option>
+                    </select>
+                    <br>
+                    <button class="btn btn-primary" type="submit" id="submitsignup">Submit </button>
+            <button type="reset" class="btn btn-primary" >Reset</button>
+                </form>
+                <hr >
+                
+            </div>
+    </section>
+    <section id="logindata" >
+
+    </section>
+    <footer>
+        <hr>
+        <i>Coding Keeda &copy Copyright 2018 </i>
+    <hr>
+    </footer>
+
+<script src="mainScript.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+</body>
+</html>
